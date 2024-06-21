@@ -1,0 +1,73 @@
+head {
+    justify-content: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: -10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-style: italic;
+
+}
+nav a:hover {
+    cursor: pointer;
+}
+
+.principal {
+    display: flex;
+    margin: 1em;
+    background-color: bisque;
+    padding: 3em;
+    border-radius: 1%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos {
+    display: flex;
+    margin: 1em;
+    background-color: bisque;
+    padding: 3em;
+    border-radius: 1%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades {
+    display: flex;
+    margin: 1em;
+    background-color: bisque;
+    padding: 3em;
+    border-radius: 1%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    margin: 1em;
+    background-color: bisque;
+    padding: 3em;
+    border-radius: 1%;
+    flex-direction: column;
+    align-items: center;
+}
